@@ -1,0 +1,42 @@
+#newsApp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    column-gap: 20px;
+    border-radius: 2px solid black;
+    
+}
+.inp-text{
+    width: 80%;
+    margin: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 2px solid black;
+}
+.heading{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inp-btn{
+    display: flex;
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+}
+@media only screen and (max-width:740px){
+    #newsApp {
+        display: grid;
+        grid-template-columns: 1fr;
+        border-radius: 2px solid black;
+        
+    }
+}
