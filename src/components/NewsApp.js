@@ -9,7 +9,7 @@ function NewsApp() {
   const [NewsList, setNewsList] = useState([]);
 
   const [query, HandleQuery] = useState('tesla');
-  const apiurl = `https://newsapi.org/v2/everything?q=${query}&from=2023-04-31&sortBy=publishedAt&apiKey=${apikey}`;
+  const apiurl = `https://newsapi.org/v2/everything?q=${query}&from=2023-05-04&sortBy=publishedAt&apiKey=${apikey}`;
 
 
 
